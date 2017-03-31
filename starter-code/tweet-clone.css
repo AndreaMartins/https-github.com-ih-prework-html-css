@@ -1,0 +1,107 @@
+*{
+  font-family: helvetica;
+  font-size: 32px
+}
+
+body{
+background-color: rgb(244, 248, 249);
+}
+.page{
+background-color: rgb(255, 255, 255);    /* Blue */
+font-weight: bold;
+padding: 40px;
+text-align: left;
+border: 2px solid rgb(225, 232, 237);    /* Dark gray */
+border-radius: 10px;
+width: 800px;
+margin: 20px auto;
+}
+
+.arriba {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+margin: 0px;
+padding: 0px;
+border: 1px solid #fff;
+width: 800px;
+}
+
+.medio {
+line-height: 50%;
+}
+
+.follow {
+float:right;
+background-color: rgb(255, 255, 255);
+font-weight: bold;
+font-size: 32px;
+color:rgb(85, 172, 238);
+padding: 10px;
+text-align: center;
+border: 2px solid rgb(85, 172, 238);    /* Blue */
+border-radius: 10px;
+width: 160px;
+margin: 100px right;
+}
+
+.image{
+display:flex;
+justify-content: space-between;
+width: 260px;
+float:left;
+}
+
+.photo{
+float: left
+display: flex;
+justify-content: flex-start;
+}
+
+.user{
+float:none;
+background-color: rgb(255, 255, 255);    /* Blue */
+font-weight: bold;
+padding-right: 20px;
+text-align: left;
+line-height: 50%;
+border-radius: 5px;
+width: 150px;
+margin: 20px left;
+}
+
+
+h1 {
+  color: rgb(104, 109, 129);
+  font-family: Helvetica ;
+  font-weight: lighter;
+  text-align: left;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-family: Helvetica ;
+  font-weight: lighter;
+  text-align: left;
+}
+
+h2 {
+  font-family: Helvetica ;
+  font-weight: lighter;
+  text-align: left;
+}
+
+h3 {
+  color: rgb(104, 109, 129);
+  font-family: Helvetica ;
+  font-size: 28px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.likes {
+background-color: rgb(255, 255, 255);
+font-weight: normal;
+font-size: 32px;
+color:rgb(105, 120, 130);
+}
